@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  /*background: #1c1a19;*/
+}
+
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  flex-direction: row;
+}
+
+.container {
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #1c1a19;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  background: #3c3a39;
+  align-items: center;
+}
+
+.hero-wrapper {
+  background-image: url(.assets/illustration-header-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-position: 100% 60%;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.headline {
+  font-style: normal;
+  font-family: 'Crete Round', sans-serif;
+  color: #ff6b00;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  padding-top: 10x;
+  padding-top: 45%;
+}
+
+.job-title {
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #fff5e1;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.job-description {
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.links * {
+  display: flex;
+  gap: 20px;
+  margin-top: 8px;
+}
+
+.header-image {
+  position: absolute;
+  top: 250px;
+  right: 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.recent {
+  background-color:  #E5E5E5;
+  color: #1C1A19;
+  font-family: Crete Round;
+  font-weight: 400px;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 40%;
+}
+
+.recent {
+  background-image: url(.assets/Vector.png);
+  width: 327px;
+  height: 0px;
+  border: 1px solid #212121;
+  margin: 40%;
+}
+
+.placeholder {
+  background-image: url(.assets/Img\ Placeholder.png);
+  width: 327px;
+  height: 237px;
+}
+
+.stitle{
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091E42;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  font-family: 'Inter';
+  font-style: normal;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:  #091E42;;
+
+}
