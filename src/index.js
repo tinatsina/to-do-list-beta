@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 books.forEach((item) => {
   botContainer.innerHTML += `
-                <div class="todo-card" id="asd">
+                <div class="todo-card" id="to-do-card-indetifier">
                     <div class="card-items" id="${item.id}">
                         <input type="checkbox" class="to-be-checked">
                         <p>${item.description}</p>
